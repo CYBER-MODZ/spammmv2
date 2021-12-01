@@ -46,7 +46,6 @@ for max in range(mex):
 	req = request.Request(
 		'https://www.mapclub.com/member/register/?phone='+nomor+'&old_phone='+nomor, method="POST"
 	)
-	r = json.loads(
 					req
 				).read(
 			)
